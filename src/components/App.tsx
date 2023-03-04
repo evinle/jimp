@@ -7,6 +7,7 @@ const App =  () => {
   const handleClick = (eventType: "-" | "+") => {
     setCount(prev => eventType == "-" ? prev - 1 : prev + 1)
   }
+
   return (
     <div>
       <button onClick={() => handleClick("-")}>-</button>
